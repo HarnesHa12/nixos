@@ -49,7 +49,7 @@
           type = "packages";
           key = "󰏗 PKG";
           keyColor = "#c4d4ff";
-          format = "all";
+          format = "{all}";
         }
         {
           type = "terminal";
