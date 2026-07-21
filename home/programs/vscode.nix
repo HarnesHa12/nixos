@@ -25,6 +25,7 @@
       "files.associations" = {
         "*.css" = "tailwindcss";
       };
+      "workbench.iconTheme" = "vscode-icons";
       "git.confirmSync" = false;
       "git.enableSmartCommit" = true;
       "git.suggestSmartCommit" = false;
