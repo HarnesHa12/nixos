@@ -10,6 +10,7 @@
         biomejs.biome
         jnoortheen.nix-ide
         bradlc.vscode-tailwindcss
+        vscode-icons-team.vscode-icons
       ]) ++ pkgs.vscode-utils.extensionsFromVscodeMarketplace [
         {
           name = "discord-vscode";
@@ -27,6 +28,9 @@
       "git.confirmSync" = false;
       "git.enableSmartCommit" = true;
       "git.suggestSmartCommit" = false;
+      "json.schemaDownload.trustedDomains" = {
+        "https://biomejs.dev" = true;
+      };
     };
   };
 }
