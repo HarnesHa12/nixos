@@ -11,6 +11,7 @@
       background-opacity = 0.5;
       window-padding-x = 10;
       window-padding-y = 10;
+      confirm-close-surface = false;
       theme = "noctalia";
     };
 
