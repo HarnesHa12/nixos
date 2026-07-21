@@ -24,6 +24,7 @@
             {
               id = "ActiveWindow";
               showText = false;
+              colorizeIcon = true;
             }
             {
               id = "MediaMini";
