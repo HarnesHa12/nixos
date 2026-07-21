@@ -20,7 +20,7 @@
       ];
     profiles.default.userSettings = {
       "workbench.colorTheme" = "One Dark Pro";
-      "editor.autoSave" = "afterDelay";
+      "files.autoSave" = "afterDelay";
       "files.associations" = {
         "*.css" = "tailwindcss";
       };
