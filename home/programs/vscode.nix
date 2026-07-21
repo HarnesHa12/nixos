@@ -24,6 +24,9 @@
       "files.associations" = {
         "*.css" = "tailwindcss";
       };
+      "git.confirmSync" = false;
+      "git.enableSmartCommit" = true;
+      "git.suggestSmartCommit" = false;
     };
   };
 }
