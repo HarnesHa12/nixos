@@ -6,6 +6,7 @@
 
     ./packages.nix
 
+    ./programs/discord.nix
     ./programs/fastfetch.nix
     ./programs/fish.nix
     ./programs/ghostty.nix
