@@ -12,6 +12,7 @@
         bradlc.vscode-tailwindcss
         vscode-icons-team.vscode-icons
         svelte.svelte-vscode
+        prisma.prisma
       ]) ++ pkgs.vscode-utils.extensionsFromVscodeMarketplace [
         {
           name = "discord-vscode";
