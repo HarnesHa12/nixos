@@ -1,13 +1,15 @@
 { pkgs, ... }:
 
 {
+  programs.direnv.enable = true;
+
   home.packages = with pkgs; [
     vscode
     vesktop
     discord
     fastfetch
-    nodejs
-    rustup
-    unstable.pnpm
+    openssl
+    prismlauncher
+    unzip
   ];
 }

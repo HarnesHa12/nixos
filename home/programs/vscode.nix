@@ -13,6 +13,7 @@
         vscode-icons-team.vscode-icons
         svelte.svelte-vscode
         prisma.prisma
+        mkhl.direnv
       ]) ++ pkgs.vscode-utils.extensionsFromVscodeMarketplace [
         {
           name = "discord-vscode";
@@ -31,6 +32,7 @@
       "git.confirmSync" = false;
       "git.enableSmartCommit" = true;
       "git.suggestSmartCommit" = false;
+      "svelte.enable-ts-plugin" = true;
       "json.schemaDownload.trustedDomains" = {
         "https://biomejs.dev" = true;
       };
