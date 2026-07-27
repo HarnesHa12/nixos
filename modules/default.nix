@@ -24,5 +24,6 @@
 
     ./services/docker.nix
     ./services/tailscale.nix
+    ./services/flatpak.nix
   ];
 }

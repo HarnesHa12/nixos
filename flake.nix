@@ -24,9 +24,11 @@
       url = "github:noctalia-dev/noctalia/legacy-v4";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+
+    nix-flatpak.url = "github:gmodena/nix-flatpak/?ref=latest";
   };
 
-  outputs = inputs@{ self, nixpkgs, unstable, home-manager, niri, noctalia, ... }: {
+  outputs = inputs@{ self, nixpkgs, unstable, home-manager, ... }: {
     nixosConfigurations.femboy = nixpkgs.lib.nixosSystem {
       specialArgs = { inherit inputs; };
 
