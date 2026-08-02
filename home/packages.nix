@@ -13,5 +13,6 @@
     unzip
     kdePackages.dolphin
     termius
+    unstable.zed-editor
   ];
 }
