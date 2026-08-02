@@ -35,6 +35,7 @@
       "svelte.enable-ts-plugin" = true;
       "json.schemaDownload.trustedDomains" = {
         "https://biomejs.dev" = true;
+        "https://turborepo.dev/schema.json" = true;
       };
     };
   };

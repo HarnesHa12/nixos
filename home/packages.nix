@@ -11,5 +11,7 @@
     openssl
     prismlauncher
     unzip
+    kdePackages.dolphin
+    termius
   ];
 }
