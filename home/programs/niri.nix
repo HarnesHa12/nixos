@@ -579,7 +579,7 @@
         };
         "Ctrl+Print" = {
           repeat = false;
-          action.spawn = [ "unisic" "--screen" ];
+          action.spawn = [ "unisic" "--fullscreen" ];
         };
         "Alt+Print" = {
           repeat = false;
