@@ -575,15 +575,15 @@
 
         "Print" = {
           repeat = false;
-          action.screenshot = {};
+          action.spawn = [ "unisic" "--region" ];
         };
         "Ctrl+Print" = {
           repeat = false;
-          action.screenshot-screen = {};
+          action.spawn = [ "unisic" "--screen" ];
         };
         "Alt+Print" = {
           repeat = false;
-          action.screenshot-window = {};
+          action.spawn = [ "unisic" "--window" ];
         };
 
         "Mod+Escape" = {

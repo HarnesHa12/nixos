@@ -1,4 +1,4 @@
-{ pkgs, ... }:
+{ pkgs, inputs, ... }:
 
 {
   programs.direnv.enable = true;
@@ -14,5 +14,7 @@
     kdePackages.dolphin
     termius
     unstable.zed-editor
+    inputs.unisic.packages.${stdenv.hostPlatform.system}.default
+    grim
   ];
 }

@@ -26,6 +26,7 @@
     };
 
     nix-flatpak.url = "github:gmodena/nix-flatpak/?ref=latest";
+    unisic.url = "github:unisic/unisic";
   };
 
   outputs = inputs@{ self, nixpkgs, unstable, home-manager, ... }: {

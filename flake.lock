@@ -125,6 +125,22 @@
         "type": "github"
       }
     },
+    "nixpkgs_2": {
+      "locked": {
+        "lastModified": 1785090369,
+        "narHash": "sha256-m0pDuRJG7EDo9ri+4Ksu83VsI+PlxNC9lNBfydejce4=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "624af665418d3c65d544145b4d34ad696439570e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
     "noctalia": {
       "inputs": {
         "nixpkgs": [
@@ -178,6 +194,7 @@
         "nixpkgs": "nixpkgs",
         "noctalia": "noctalia",
         "spicetify-nix": "spicetify-nix",
+        "unisic": "unisic",
         "unstable": "unstable"
       }
     },
@@ -251,6 +268,42 @@
       "original": {
         "owner": "numtide",
         "repo": "treefmt-nix",
+        "type": "github"
+      }
+    },
+    "unisic": {
+      "inputs": {
+        "nixpkgs": "nixpkgs_2",
+        "unisic-kit": "unisic-kit"
+      },
+      "locked": {
+        "lastModified": 1785525561,
+        "narHash": "sha256-dE/690tgL7OKs1dr8S01IhmcDCbArPYLLEjnKLkGAZ0=",
+        "owner": "unisic",
+        "repo": "unisic",
+        "rev": "585edc7fafe29b2f12e6174cdc0d2e3b30446806",
+        "type": "github"
+      },
+      "original": {
+        "owner": "unisic",
+        "repo": "unisic",
+        "type": "github"
+      }
+    },
+    "unisic-kit": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1785518377,
+        "narHash": "sha256-o+bWG5UQ9a5+1sHbk1JHJ9PoWlcarHK5EbNlXBezIS0=",
+        "owner": "unisic",
+        "repo": "unisic-kit",
+        "rev": "e52a2f59f6b25df902f1ad36793c68c777c776a6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "unisic",
+        "repo": "unisic-kit",
+        "rev": "e52a2f59f6b25df902f1ad36793c68c777c776a6",
         "type": "github"
       }
     },
