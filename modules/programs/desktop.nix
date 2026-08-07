@@ -31,7 +31,9 @@
     mission-center
     adwaita-icon-theme
     proton-vpn
+    wireguard-tools
     vlc
+    unrar
     inputs.noctalia.packages.${pkgs.stdenv.hostPlatform.system}.default
   ];
 }

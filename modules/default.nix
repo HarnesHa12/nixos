@@ -23,7 +23,8 @@
     ./programs/shell.nix
 
     ./services/docker.nix
-    ./services/tailscale.nix
     ./services/flatpak.nix
+    ./services/libvirt.nix
+    ./services/tailscale.nix
   ];
 }

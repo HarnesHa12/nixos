@@ -16,5 +16,6 @@
     unstable.zed-editor
     inputs.unisic.packages.${stdenv.hostPlatform.system}.default
     grim
+    bruno
   ];
 }

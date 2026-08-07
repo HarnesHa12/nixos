@@ -14,6 +14,7 @@
         svelte.svelte-vscode
         prisma.prisma
         mkhl.direnv
+        tamasfe.even-better-toml
       ]) ++ pkgs.vscode-utils.extensionsFromVscodeMarketplace [
         {
           name = "discord-vscode";
